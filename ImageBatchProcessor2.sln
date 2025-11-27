@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageBatchProcessor2", "ImageBatchProcessor2.csproj", "{C49FDBCC-3434-4D80-92AE-6FC9352DC4A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageBatchProcessorTests", "..\ImageBatchProcessorTests\ImageBatchProcessorTests.csproj", "{EBAED7AE-AC81-4195-A7BB-A9A626F26849}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C49FDBCC-3434-4D80-92AE-6FC9352DC4A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C49FDBCC-3434-4D80-92AE-6FC9352DC4A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C49FDBCC-3434-4D80-92AE-6FC9352DC4A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBAED7AE-AC81-4195-A7BB-A9A626F26849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBAED7AE-AC81-4195-A7BB-A9A626F26849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBAED7AE-AC81-4195-A7BB-A9A626F26849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBAED7AE-AC81-4195-A7BB-A9A626F26849}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
