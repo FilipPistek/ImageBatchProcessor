@@ -2,7 +2,9 @@
 
 ## Autor
 **Jméno:** Filip Pištěk
-**Předmět:** Programové vybavení 
+
+**Předmět:** Programové vybavení
+
 **Rok:** 2025
 
 ## Popis projektu
