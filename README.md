@@ -22,9 +22,7 @@ Projekt dodržuje striktní oddělení zdrojového kódu, testů a dokumentace:
 
 ## Návod k instalaci a spuštění
 
-Aplikaci lze spustit dvěma způsoby.
-
-### Varianta A: Spuštění hotové aplikace (Bez nutnosti IDE)
+### Spuštění hotové aplikace (Bez nutnosti IDE)
 Tato varianta je určena pro školní PC nebo běžného uživatele.
 
 1.  **Stažení:**
