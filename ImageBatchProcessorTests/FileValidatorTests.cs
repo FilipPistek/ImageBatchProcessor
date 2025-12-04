@@ -1,4 +1,5 @@
 using ImageBatchProcessor2.Components;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace ImageBatchProcessor.Tests
 {
