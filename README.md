@@ -33,13 +33,11 @@ Tato varianta je určena pro školní PC nebo běžného uživatele.
     * Rozbalte ZIP archiv.
 
 3.  **Spuštění:**
+    * Upravte si v config.json, jak velký obrázek chcete
     * Spusťte `ImageBatchProcessor.exe`.
     * Aplikace při prvním startu vytvoří složky `input` a `output`.
     * Vložte obrázky (`.jpg`) do nově vzniklé složky `input`.
     * Spusťte aplikaci znovu – proběhne zpracování.
-
-## Ovládání a Konfigurace
-Aplikace funguje plně automaticky bez nutnosti zásahu uživatele.
 
 * **Vstup:** Obrázky formátu `.jpg` ve složce `/input`.
 * **Výstup:** Upravené obrázky ve složce `/output` + soubor `process_log.csv` (auditní log).
