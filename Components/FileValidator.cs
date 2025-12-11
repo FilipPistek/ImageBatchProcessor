@@ -2,9 +2,6 @@
 {
     public static class FileValidator
     {
-        /// <summary>
-        /// Ověří, zda má soubor podporovanou koncovku (.jpg).
-        /// </summary>
         public static bool IsValidImage(string filePath)
         {
             if (string.IsNullOrWhiteSpace(filePath))

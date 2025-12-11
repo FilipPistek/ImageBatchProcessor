@@ -2,20 +2,18 @@
 
 namespace ImageBatchProcessor2.Components
 {
-    /// <summary>
-    /// Třída řídící paralelní zpracování úloh pomocí vzoru Producer-Consumer.
-    /// </summary>
     public class Processor
     {
         // Thread-safe kolekce (fronta), která blokuje konzumenty, pokud je prázdná,
         // a blokuje producenta, pokud je přeplněná (kapacita 100).
         private BlockingCollection<string> _tasks = new BlockingCollection<string>(100);
-
         private readonly ThreadSafeLogger _logger;
+        private readonly AppConfig _config;
 
-        public Processor(ThreadSafeLogger logger)
+        public Processor(ThreadSafeLogger logger, AppConfig config)
         {
             _logger = logger;
+            _config = config;
         }
 
         public void Start(string inputFolder, string outputFolder, int threadCount)
@@ -88,7 +86,7 @@ namespace ImageBatchProcessor2.Components
                     Console.WriteLine($"[Vlákno {id}] Zpracovávám: {fileName}");
 
                     // REÁLNÁ PRÁCE: Volání logiky pro úpravu obrázku
-                    ImageEditor.ProcessImage(inputFile, outputPath);
+                    ImageEditor.ProcessImage(inputFile, outputPath, _config.TargetWidth, _config.TargetHeight, _config.WatermarkText);
 
                 }
                 catch (Exception ex)
