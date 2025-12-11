@@ -2,7 +2,9 @@
 
 ## Autor
 **Jméno:** Filip Pištěk
-**Předmět:** Programové vybavení 
+
+**Předmět:** Programové vybavení
+
 **Rok:** 2025
 
 ## Popis projektu
@@ -13,16 +15,14 @@ Projekt využívá návrhový vzor **Producer-Consumer** a bezpečně řeší ko
 ## Struktura repozitáře
 Projekt dodržuje striktní oddělení zdrojového kódu, testů a dokumentace:
 
-* `Components/` - Třídy zapouzdřující logiku (Logika procesoru, Editor grafiky, Loger).
+* `Components/` - Veškerý kód mimo Program.cs (Logika procesoru, Editor grafiky, Logger).
 * `ImageBatchProcessorTests/` - Unit testy ověřující validaci souborů (MSTest).
 
 ---
 
 ## Návod k instalaci a spuštění
 
-Aplikaci lze spustit dvěma způsoby.
-
-### Varianta A: Spuštění hotové aplikace (Bez nutnosti IDE)
+### Spuštění hotové aplikace
 Tato varianta je určena pro školní PC nebo běžného uživatele.
 
 1.  **Stažení:**
