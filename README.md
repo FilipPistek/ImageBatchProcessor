@@ -27,7 +27,7 @@ Tato varianta je určena pro školní PC nebo běžného uživatele.
 
 1.  **Stažení:**
     * Přejděte do sekce **[Releases](../../releases)** v tomto repozitáři.
-    * Stáhněte `ImageBatchProcessor_v1.0.zip` archiv.
+    * Stáhněte `.zip` archiv.
 
 2.  **Příprava:**
     * Rozbalte ZIP archiv.
